@@ -65,7 +65,7 @@ const FeatureDisplay = () => {
       title: "Attend Technical Sessions",
       content: "Immerse yourself in cutting-edge topics and expand your technical knowledge."
     },
-    {
+    { 
       icon: faLaptopCode,
       title: "Hands-On Programs",
       content: (
