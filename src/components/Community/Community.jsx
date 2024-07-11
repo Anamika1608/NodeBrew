@@ -32,7 +32,7 @@ const CommunitySection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="get-involved-button"
-          >
+          > 
             Get Involved
           </motion.button>
         </motion.div>
