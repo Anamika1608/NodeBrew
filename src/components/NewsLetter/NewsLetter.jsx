@@ -40,6 +40,7 @@ const Form = styled(motion.form)`
   }
 `;
 
+
 const Input = styled(motion.input)`
   flex-grow: 1;
   max-width: 300px;
