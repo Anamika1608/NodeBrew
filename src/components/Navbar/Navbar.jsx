@@ -6,7 +6,7 @@ import { cn } from "../../utils/cn";
 export function NavbarDemo() {
   return (
     <div className="relative flex items-center justify-end">
-      <Navbar className="top-0"  />
+      <Navbar className="top-0" />
     </div>
   ); 
 }
