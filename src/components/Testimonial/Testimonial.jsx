@@ -28,8 +28,8 @@ const TestimonialWall = () => {
     { id: 3, text: "The mentorship I received was invaluable. Truly life-changing.", author: "Drishya" },
     { id: 4, text: "From noob to pro, the journey was incredible.", author: "Anushree" },
     { id: 5, text: "The hands-on experience prepared me for real-world challenges.", author: "Harshita" },
-  ];
-
+  ]; 
+  
   const scrollRef = useRef(null);
   const controls = useAnimation();
 
