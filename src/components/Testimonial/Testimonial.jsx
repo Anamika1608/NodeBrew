@@ -8,6 +8,7 @@ const ImpactHeading = () => (
     initial={{ opacity: 0, y: 50 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8, ease: "easeOut" }}
+    style={{padding:10}}
   >
     Brewing Success, One Story at a Time
     <motion.span 
@@ -24,9 +25,9 @@ const ImpactHeading = () => (
 const TestimonialWall = () => {
   const testimonials = [
     { id: 1, text: "This program changed my career trajectory completely!", author: "Simran" },
-    { id: 2, text: "I've never felt more empowered and confident in my skills.", author: "Anamika" },
-    { id: 3, text: "The mentorship I received was invaluable. Truly life-changing.", author: "Drishya" },
-    { id: 4, text: "From noob to pro, the journey was incredible.", author: "Anushree" },
+    { id: 2, text: "I've never felt more empowered and confident in my skills.", author: "Bhoomi" },
+    { id: 3, text: "The mentorship I received was invaluable. Truly life-changing.", author: "Suhana" },
+    { id: 4, text: "From noob to pro, the journey was incredible.", author: "Anushka" },
     { id: 5, text: "The hands-on experience prepared me for real-world challenges.", author: "Harshita" },
   ]; 
   

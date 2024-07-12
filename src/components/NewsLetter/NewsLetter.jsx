@@ -92,30 +92,6 @@ const Newsletter = () => {
 
   return (
     <NewsletterSection>
-      {[...Array(5)].map((_, i) => (
-        <FloatingShape
-          key={i}
-          initial={{
-            x: Math.random() * window.innerWidth,
-            y: Math.random() * window.innerHeight,
-            scale: Math.random() * 0.5 + 0.5,
-          }}
-          animate={{
-            x: Math.random() * window.innerWidth,
-            y: Math.random() * window.innerHeight,
-            scale: Math.random() * 0.5 + 0.5,
-            transition: {
-              duration: Math.random() * 10 + 10,
-              repeat: Infinity,
-              repeatType: 'reverse',
-            },
-          }}
-          style={{
-            width: `${Math.random() * 100 + 50}px`,
-            height: `${Math.random() * 100 + 50}px`,
-          }}
-        />
-      ))}
       <Content>
         <Heading
           initial={{ opacity: 0, y: -50 }}

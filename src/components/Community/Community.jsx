@@ -37,7 +37,7 @@ const CommunitySection = () => {
           </motion.button>
         </motion.div>
       </div>
-      <div className="background-elements">
+      <div className="background-elements hidden sm:block">
         <div className="circle circle-1"></div>
         <div className="circle circle-2"></div>
         <div className="circle circle-3"></div>
