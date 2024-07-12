@@ -57,12 +57,12 @@ const FeatureDisplay = () => {
   const features = [
     {
       icon: faUsersCog,
-      title: "Learn with Peers & Mentors",
+      title: "Learn with Mentors",
       content: "Connect with like-minded individuals and industry experts to accelerate your growth."
     },
     {
       icon: faChalkboardTeacher,
-      title: "Attend Technical Sessions",
+      title: "Live Tech Sessions",
       content: "Immerse yourself in cutting-edge topics and expand your technical knowledge."
     },
     { 
