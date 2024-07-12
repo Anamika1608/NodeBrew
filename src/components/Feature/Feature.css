@@ -8,7 +8,7 @@
 
 .feature-card {
   width: 300px;
-  height: 400px;
+  height: 330px;
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
@@ -36,7 +36,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+ 
+  margin-top: -20px;
   transition: all 0.3s ease;
 }
 
