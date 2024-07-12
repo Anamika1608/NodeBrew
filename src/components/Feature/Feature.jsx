@@ -9,7 +9,7 @@ const FeatureCard = ({ icon, title, content }) => {
     <motion.div 
       className="feature-card"
       whileHover="hover"
-      initial="rest"
+      initial="rest" 
       animate="rest"
     >
       <motion.div className="card-content">
