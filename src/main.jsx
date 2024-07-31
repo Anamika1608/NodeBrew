@@ -8,11 +8,17 @@ import {
   Route,
   createRoutesFromElements,
 } from "react-router-dom";
-
+import About from './components/About/About.jsx';
+import HomePage from './pages/HomePage.jsx';
+import BrewBridge from './components/BrewBridge/BrewBridge.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
-      
+    <Route path='' element={<HomePage/>}/>
+    <Route path='Home' element={<HomePage/>}/>
+    <Route path='About' element={<About/>}/>
+    <Route path='Brew-Bridge' element={<BrewBridge/>}/>
+    
     </Route>
   )
 )
