@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'tan';
+    src: url('/tan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'rocaThin';
+    src: url('/rocaThin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

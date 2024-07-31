@@ -11,6 +11,7 @@ import {
 import About from './components/About/About.jsx';
 import HomePage from './pages/HomePage.jsx';
 import BrewBridge from './components/BrewBridge/BrewBridge.jsx';
+import HackBrew from './components/HackBrew/HackBrew.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
     <Route path='Home' element={<HomePage/>}/>
     <Route path='About' element={<About/>}/>
     <Route path='Brew-Bridge' element={<BrewBridge/>}/>
+    <Route path='Hack-Brew' element={<HackBrew/>}/>
     
     </Route>
   )

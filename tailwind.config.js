@@ -11,7 +11,33 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rocaThin: ['rocaThin', 'sans-serif'],
+        tan: ['tan', 'sans-serif'],
+     
+      },
       colors: {
+        'coffee-50': '#F7F3EF',
+        'coffee-700': '#4E342E',
+        'green-600': '#66BB6A',
+        'green-700': '#388E3C',
+        'blue-600': '#64B5F6',
+        'blue-100': '#E3F2FD',
+        'blue-50': '#F0F4F8',
+        'coffee-light': '#d9c1a3',
+        'coffee-dark': '#4b2e2e',
+        'coffee-darker': '#2f1d1d',
+        'blue-200': '#cfe2f3',
+        'blue-800': '#243c5a',
+        'blue-900': '#1b2e4b',
+        'coffee-900': '#2C2A29',
+        'coffee-800': '#3C3A38',
+        'coffee-700': '#524E4C',
+        'coffee-600': '#6D6865',
+        'coffee-300': '#B0A596',
+        'green-400': '#81C784',
+        'green-500': '#66BB6A',
+        'blue-400': '#76B3B5',
         coffee: {
           50: '#FAF6F3',
           100: '#F1E8E4',
